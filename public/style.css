@@ -4,24 +4,30 @@ body {
     padding: 0 .5em;
     line-height: 1.5em;
     font-size: 11pt;
-    font-family: Helvetica, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
 }
 
 html {
     overflow-y: scroll;
 }
 
+h1, h2, h3, h4 {
+    font-weight: bold;
+    font-variant: small-caps;
+    background: #EEEEEE;
+    padding-top: .5em;
+    padding-left: .5em;
+    padding-right: .5em;
+    padding-bottom: .5em;
+}
+
 h1 {
     font-size: 2em;
-    font-variant: small-caps;
-    font-weight: bold;
+    text-align: center;
 }
 
 h2 {
     font-size: 1.5em;
-    font-variant: small-caps;
-    font-weight: bold;
-    margin-top: 1em;
 }
 
 nav ul {
@@ -49,7 +55,7 @@ header > aside {
 }
 
 header {
-    margin-bottom: 3em;
+    margin-bottom: 2em;
 }
 
 footer {
