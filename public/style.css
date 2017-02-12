@@ -161,12 +161,8 @@ table th {
     padding: 0 1em;
 }
 
-table .pre-header th {
-    border-bottom: 0;
-}
-
 table > :last-child {
-    border-bottom: 2px solid #555555;
+    /*border-bottom: 2px solid #555555;*/
 }
 
 table td.column-candidate {
@@ -182,8 +178,6 @@ table td.column-percent {
 /* Table total */
 
 table#table-total td {
-    height: 3em;
-    line-height: 1.2em;
 }
 
 /* Table duos */

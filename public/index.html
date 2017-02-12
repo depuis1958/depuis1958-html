@@ -14,7 +14,7 @@
 <img id="logo" src="/logo.png" alt="Depuis 1958">
 </a>
 <aside>
-    Mis à jour le 10/02/2017 à 22:45<br>
+    Mis à jour le 12/02/2017 à 22:21<br>
     43 sondages agrégés<br>
     5 000 000 scrutins simulés<br>
 </aside>
@@ -39,96 +39,94 @@ historiques. Puis, la distribution aposteriori des votes exprimés au premier
 tour et la probabilité totale de victoire au second tour sont estimées par
 simulation Monte-Carlo. Bref on prédit qui va gagner. Peut&#8209;être.</p>
 
-<h2>Qui va gagner&nbsp;?</h2>
+<h2>Probabilité totale de victoire</h2>
+<figure>
+<img src="/time-plot-2017.png" alt="Probabilité totale de gagner l'élection">
+</figure>
+
 <table id="table-total">
+
 <tr>
-    <th>Candidat</th>
-    <th>Probabilité totale de<br>gagner l'élection</th>
-</tr>
-
-<tr class="">
     <td class="column-candidate column-1">
-        <span class="center"><strong>Emmanuel Macron</strong></span>
-    <div class="badge" style="background-color:#FFC0C0;"></div>
+        <div class="side-badge" style="background-color:#FFC0C0"></div>
+    <strong>Emmanuel Macron</strong>
     </td>
-    <td class="column-percent column-2 percentage">54.6&nbsp;%</td>
+    <td class="column-percent column-2 percentage">56.2&nbsp;%</td>
 </tr>
 
-<tr class="">
+<tr>
     <td class="column-candidate column-1">
-        <span class="center"><strong>François Fillon</strong></span>
-    <div class="badge" style="background-color:#0066CC;"></div>
+        <div class="side-badge" style="background-color:#0066CC"></div>
+    <strong>François Fillon</strong>
     </td>
-    <td class="column-percent column-2 percentage">39.0&nbsp;%</td>
+    <td class="column-percent column-2 percentage">38.7&nbsp;%</td>
 </tr>
 
-<tr class="">
+<tr>
     <td class="column-candidate column-1">
-        <span class="center"><strong>Marine Le Pen</strong></span>
-    <div class="badge" style="background-color:#08105c;"></div>
+        <div class="side-badge" style="background-color:#08105c"></div>
+    <strong>Marine Le Pen</strong>
     </td>
-    <td class="column-percent column-2 percentage">3.2&nbsp;%</td>
+    <td class="column-percent column-2 percentage">2.8&nbsp;%</td>
 </tr>
 
-<tr class="">
+<tr>
     <td class="column-candidate column-1">
-        <span class="center"><strong>Benoît Hamon</strong></span>
-    <div class="badge" style="background-color:#FF8080;"></div>
+        <div class="side-badge" style="background-color:#FF8080"></div>
+    <strong>Benoît Hamon</strong>
     </td>
-    <td class="column-percent column-2 percentage">2.6&nbsp;%</td>
+    <td class="column-percent column-2 percentage">1.9&nbsp;%</td>
 </tr>
 
-<tr class="">
+<tr>
     <td class="column-candidate column-1">
-        <span class="center"><strong>Jean-Luc Mélenchon</strong></span>
-    <div class="badge" style="background-color:#DD0000;"></div>
+        <div class="side-badge" style="background-color:#DD0000"></div>
+    <strong>Jean-Luc Mélenchon</strong>
     </td>
-    <td class="column-percent column-2 percentage">0.6&nbsp;%</td>
+    <td class="column-percent column-2 percentage">0.4&nbsp;%</td>
 </tr>
 
-<tr class="hiddable">
+<tr>
     <td class="column-candidate column-1">
-        <span class="center"><strong>Nicolas Dupont-Aignan</strong></span>
-    <div class="badge" style="background-color:#8040C0;"></div>
+        <div class="side-badge" style="background-color:#BB0000"></div>
+    <strong>Nathalie Arthaud</strong>
     </td>
     <td class="column-percent column-2 percentage">0.0&nbsp;%</td>
 </tr>
 
-<tr class="hiddable">
+<tr>
     <td class="column-candidate column-1">
-        <span class="center"><strong>Nathalie Arthaud</strong></span>
-    <div class="badge" style="background-color:#BB0000;"></div>
+        <div class="side-badge" style="background-color:#C0B440"></div>
+    <strong>Jacques Cheminade</strong>
     </td>
     <td class="column-percent column-2 percentage">0.0&nbsp;%</td>
 </tr>
 
-<tr class="hiddable">
+<tr>
     <td class="column-candidate column-1">
-        <span class="center"><strong>Jacques Cheminade</strong></span>
-    <div class="badge" style="background-color:#C0B440;"></div>
+        <div class="side-badge" style="background-color:#8040C0"></div>
+    <strong>Nicolas Dupont-Aignan</strong>
     </td>
     <td class="column-percent column-2 percentage">0.0&nbsp;%</td>
 </tr>
 
-<tr class="hiddable">
+<tr>
     <td class="column-candidate column-1">
-        <span class="center"><strong>Yannick Jadot</strong></span>
-    <div class="badge" style="background-color:#00C000;"></div>
+        <div class="side-badge" style="background-color:#00C000"></div>
+    <strong>Yannick Jadot</strong>
     </td>
     <td class="column-percent column-2 percentage">0.0&nbsp;%</td>
 </tr>
 
-<tr class="hiddable">
+<tr>
     <td class="column-candidate column-1">
-        <span class="center"><strong>Philippe Poutou</strong></span>
-    <div class="badge" style="background-color:#BB0000;"></div>
+        <div class="side-badge" style="background-color:#BB0000"></div>
+    <strong>Philippe Poutou</strong>
     </td>
     <td class="column-percent column-2 percentage">0.0&nbsp;%</td>
 </tr>
 
 </table>
-
-<a href="#" class="hide-button center" onclick="toggle(this, 'table#table-total tr.hiddable'); return false;"></a>
 
 <p><strong>D'où sortent ces chiffres&nbsp;?</strong>
 Pour un candidat donné, ses chances de remporter l'élection dépendent de ses
@@ -146,20 +144,20 @@ deux tours.</p>
 <table id="table-duos">
 <tr>
     <th>Probabilité</th>
-    <th>Candidats au<br>second tour</th>
+    <th>Second tour</th>
     <th>Probabilité<br>conditionelle<br>de victoire</th>
 </tr>
 
 <tr class="">
     <td rowspan="2" class="column-percent column-1 percentage">
-        45.9&nbsp;%
+        48.3&nbsp;%
     </td>
     <td class="column-candidate column-2 inner-top">
         <div class="side-badge" style="background-color:#FFC0C0"></div>
     <strong>Emmanuel Macron</strong>
     </td>
     <td class="column-percent column-3 inner-top percentage">
-        99.7&nbsp;%
+        99.6&nbsp;%
     </td>
 </tr>
 <tr class="">
@@ -168,20 +166,20 @@ deux tours.</p>
     <strong>Marine Le Pen</strong>
     </td>
     <td class="column-percent column-3 inner-bottom percentage">
-        0.3&nbsp;%
+        0.4&nbsp;%
     </td>
 </tr>
 
 <tr class="">
     <td rowspan="2" class="column-percent column-1 percentage">
-        36.5&nbsp;%
+        37.6&nbsp;%
     </td>
     <td class="column-candidate column-2 inner-top">
         <div class="side-badge" style="background-color:#0066CC"></div>
     <strong>François Fillon</strong>
     </td>
     <td class="column-percent column-3 inner-top percentage">
-        97.5&nbsp;%
+        97.4&nbsp;%
     </td>
 </tr>
 <tr class="">
@@ -190,20 +188,20 @@ deux tours.</p>
     <strong>Marine Le Pen</strong>
     </td>
     <td class="column-percent column-3 inner-bottom percentage">
-        2.5&nbsp;%
+        2.6&nbsp;%
     </td>
 </tr>
 
 <tr class="">
     <td rowspan="2" class="column-percent column-1 percentage">
-        11.3&nbsp;%
+        9.6&nbsp;%
     </td>
     <td class="column-candidate column-2 inner-top">
         <div class="side-badge" style="background-color:#FFC0C0"></div>
     <strong>Emmanuel Macron</strong>
     </td>
     <td class="column-percent column-3 inner-top percentage">
-        73.5&nbsp;%
+        81.2&nbsp;%
     </td>
 </tr>
 <tr class="">
@@ -212,13 +210,13 @@ deux tours.</p>
     <strong>François Fillon</strong>
     </td>
     <td class="column-percent column-3 inner-bottom percentage">
-        26.5&nbsp;%
+        18.8&nbsp;%
     </td>
 </tr>
 
 <tr class="">
     <td rowspan="2" class="column-percent column-1 percentage">
-        3.5&nbsp;%
+        2.8&nbsp;%
     </td>
     <td class="column-candidate column-2 inner-top">
         <div class="side-badge" style="background-color:#FF8080"></div>
@@ -240,7 +238,7 @@ deux tours.</p>
 
 <tr class="">
     <td rowspan="2" class="column-percent column-1 percentage">
-        0.9&nbsp;%
+        0.6&nbsp;%
     </td>
     <td class="column-candidate column-2 inner-top">
         <div class="side-badge" style="background-color:#FF8080"></div>
@@ -262,7 +260,7 @@ deux tours.</p>
 
 <tr class="hiddable">
     <td rowspan="2" class="column-percent column-1 percentage">
-        0.8&nbsp;%
+        0.5&nbsp;%
     </td>
     <td class="column-candidate column-2 inner-top">
         <div class="side-badge" style="background-color:#08105c"></div>
@@ -284,7 +282,7 @@ deux tours.</p>
 
 <tr class="hiddable">
     <td rowspan="2" class="column-percent column-1 percentage">
-        0.7&nbsp;%
+        0.4&nbsp;%
     </td>
     <td class="column-candidate column-2 inner-top">
         <div class="side-badge" style="background-color:#0066CC"></div>
@@ -306,7 +304,7 @@ deux tours.</p>
 
 <tr class="hiddable">
     <td rowspan="2" class="column-percent column-1 percentage">
-        0.2&nbsp;%
+        0.1&nbsp;%
     </td>
     <td class="column-candidate column-2 inner-top">
         <div class="side-badge" style="background-color:#FFC0C0"></div>
@@ -375,28 +373,6 @@ deux tours.</p>
         0.0&nbsp;%
     </td>
     <td class="column-candidate column-2 inner-top">
-        <div class="side-badge" style="background-color:#8040C0"></div>
-    <strong>Nicolas Dupont-Aignan</strong>
-    </td>
-    <td class="column-percent column-3 inner-top percentage">
-        -
-    </td>
-</tr>
-<tr class="hiddable">
-    <td class="column-candidate column-2 inner-bottom">
-        <div class="side-badge" style="background-color:#08105c"></div>
-    <strong>Marine Le Pen</strong>
-    </td>
-    <td class="column-percent column-3 inner-bottom percentage">
-        -
-    </td>
-</tr>
-
-<tr class="hiddable">
-    <td rowspan="2" class="column-percent column-1 percentage">
-        0.0&nbsp;%
-    </td>
-    <td class="column-candidate column-2 inner-top">
         <div class="side-badge" style="background-color:#BB0000"></div>
     <strong>Nathalie Arthaud</strong>
     </td>
@@ -826,6 +802,28 @@ deux tours.</p>
     <td class="column-candidate column-2 inner-bottom">
         <div class="side-badge" style="background-color:#00C000"></div>
     <strong>Yannick Jadot</strong>
+    </td>
+    <td class="column-percent column-3 inner-bottom percentage">
+        -
+    </td>
+</tr>
+
+<tr class="hiddable">
+    <td rowspan="2" class="column-percent column-1 percentage">
+        0.0&nbsp;%
+    </td>
+    <td class="column-candidate column-2 inner-top">
+        <div class="side-badge" style="background-color:#8040C0"></div>
+    <strong>Nicolas Dupont-Aignan</strong>
+    </td>
+    <td class="column-percent column-3 inner-top percentage">
+        -
+    </td>
+</tr>
+<tr class="hiddable">
+    <td class="column-candidate column-2 inner-bottom">
+        <div class="side-badge" style="background-color:#08105c"></div>
+    <strong>Marine Le Pen</strong>
     </td>
     <td class="column-percent column-3 inner-bottom percentage">
         -
@@ -1160,12 +1158,8 @@ et leurs propriétés statistiques sont pris en compte.</p>
 <h2>Le premier tour</h2>
 
 <table id="table-individuals">
-<tr class="pre-header">
-    <th></th>
-    <th colspan="3">Probabilité...</th>
-</tr>
 <tr>
-    <th>Candidat</th>
+    <th>Probabilité...</th>
     <th>... de passer<br>au second tour</th>
     <th>... d'être troisième</th>
     <th>... de faire mieux<br>que soi ou son<br>parti en 2012</th>
@@ -1175,17 +1169,17 @@ et leurs propriétés statistiques sont pris en compte.</p>
     <td class="column-candidate column-1">
         <strong>Marine Le Pen</strong>
     </td>
-    <td class="column-percent percentage">86.7&nbsp;%</td>
-    <td class="column-percent percentage">11.4&nbsp;%</td>
-    <td class="column-percent percentage">96.3&nbsp;%</td>
+    <td class="column-percent percentage">89.2&nbsp;%</td>
+    <td class="column-percent percentage">9.6&nbsp;%</td>
+    <td class="column-percent percentage">98.0&nbsp;%</td>
 </tr>
 
 <tr>
     <td class="column-candidate column-1">
         <strong>Emmanuel Macron</strong>
     </td>
-    <td class="column-percent percentage">58.3&nbsp;%</td>
-    <td class="column-percent percentage">32.2&nbsp;%</td>
+    <td class="column-percent percentage">58.5&nbsp;%</td>
+    <td class="column-percent percentage">33.8&nbsp;%</td>
     <td class="column-percent percentage">-</td>
 </tr>
 
@@ -1193,17 +1187,17 @@ et leurs propriétés statistiques sont pris en compte.</p>
     <td class="column-candidate column-1">
         <strong>François Fillon</strong>
     </td>
-    <td class="column-percent percentage">48.7&nbsp;%</td>
-    <td class="column-percent percentage">38.5&nbsp;%</td>
-    <td class="column-percent percentage">2.5&nbsp;%</td>
+    <td class="column-percent percentage">47.7&nbsp;%</td>
+    <td class="column-percent percentage">41.4&nbsp;%</td>
+    <td class="column-percent percentage">1.8&nbsp;%</td>
 </tr>
 
 <tr>
     <td class="column-candidate column-1">
         <strong>Benoît Hamon</strong>
     </td>
-    <td class="column-percent percentage">5.1&nbsp;%</td>
-    <td class="column-percent percentage">13.3&nbsp;%</td>
+    <td class="column-percent percentage">3.8&nbsp;%</td>
+    <td class="column-percent percentage">11.8&nbsp;%</td>
     <td class="column-percent percentage">0.0&nbsp;%</td>
 </tr>
 
@@ -1211,9 +1205,9 @@ et leurs propriétés statistiques sont pris en compte.</p>
     <td class="column-candidate column-1">
         <strong>Jean-Luc Mélenchon</strong>
     </td>
-    <td class="column-percent percentage">1.2&nbsp;%</td>
-    <td class="column-percent percentage">4.5&nbsp;%</td>
-    <td class="column-percent percentage">60.1&nbsp;%</td>
+    <td class="column-percent percentage">0.7&nbsp;%</td>
+    <td class="column-percent percentage">3.4&nbsp;%</td>
+    <td class="column-percent percentage">61.8&nbsp;%</td>
 </tr>
 
 <tr>
@@ -1222,7 +1216,7 @@ et leurs propriétés statistiques sont pris en compte.</p>
     </td>
     <td class="column-percent percentage">0.0&nbsp;%</td>
     <td class="column-percent percentage">0.0&nbsp;%</td>
-    <td class="column-percent percentage">71.0&nbsp;%</td>
+    <td class="column-percent percentage">68.8&nbsp;%</td>
 </tr>
 
 <tr>
@@ -1231,7 +1225,7 @@ et leurs propriétés statistiques sont pris en compte.</p>
     </td>
     <td class="column-percent percentage">0.0&nbsp;%</td>
     <td class="column-percent percentage">0.0&nbsp;%</td>
-    <td class="column-percent percentage">76.4&nbsp;%</td>
+    <td class="column-percent percentage">73.4&nbsp;%</td>
 </tr>
 
 <tr>
@@ -1240,7 +1234,7 @@ et leurs propriétés statistiques sont pris en compte.</p>
     </td>
     <td class="column-percent percentage">0.0&nbsp;%</td>
     <td class="column-percent percentage">0.0&nbsp;%</td>
-    <td class="column-percent percentage">84.1&nbsp;%</td>
+    <td class="column-percent percentage">80.9&nbsp;%</td>
 </tr>
 
 <tr>
@@ -1249,7 +1243,7 @@ et leurs propriétés statistiques sont pris en compte.</p>
     </td>
     <td class="column-percent percentage">0.0&nbsp;%</td>
     <td class="column-percent percentage">0.0&nbsp;%</td>
-    <td class="column-percent percentage">35.3&nbsp;%</td>
+    <td class="column-percent percentage">32.1&nbsp;%</td>
 </tr>
 
 <tr>
@@ -1258,7 +1252,7 @@ et leurs propriétés statistiques sont pris en compte.</p>
     </td>
     <td class="column-percent percentage">0.0&nbsp;%</td>
     <td class="column-percent percentage">0.0&nbsp;%</td>
-    <td class="column-percent percentage">50.0&nbsp;%</td>
+    <td class="column-percent percentage">46.8&nbsp;%</td>
 </tr>
 
 </table>
