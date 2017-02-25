@@ -125,6 +125,12 @@ div.badge
     margin-right: auto;
 }
 
+sup {
+    font-size: 0.83em;
+    vertical-align: super;
+    line-height: 0;
+}
+
 div.side-badge
 {
     display: inline-block;
